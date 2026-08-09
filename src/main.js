@@ -31,7 +31,7 @@ app.innerHTML = `
     <section class="filters" id="marketplace">
       <input type="search" placeholder="Search for flagging, steps, etc..." />
       <div class="filter-buttons">
-        <button>Lioz Claaro</button>
+        <button id="lioz-btn">Lioz Claaro</button>
         <button>Color</button>
         <button>Stone Type</button>
         <button>Category</button>
@@ -41,6 +41,35 @@ app.innerHTML = `
         <button>Availability</button>
         <button>Price</button>
         <button>Region</button>
+      </div>
+    </section>
+
+    <section id="lioz-panel" class="lioz-panel hidden">
+      <div class="lioz-grid">
+        <div class="frame-card">
+          <div class="frame-inner">Frame 1</div>
+        </div>
+        <div class="frame-card">
+          <div class="frame-inner">Frame 2</div>
+        </div>
+        <div class="frame-card">
+          <div class="frame-inner">Frame 3</div>
+        </div>
+        <div class="frame-card">
+          <div class="frame-inner">Frame 4</div>
+        </div>
+        <div class="frame-card">
+          <div class="frame-inner">Frame 5</div>
+        </div>
+        <div class="frame-card">
+          <div class="frame-inner">Frame 6</div>
+        </div>
+        <div class="frame-card">
+          <div class="frame-inner">Frame 7</div>
+        </div>
+        <div class="frame-card">
+          <div class="frame-inner">Frame 8</div>
+        </div>
       </div>
     </section>
 
@@ -162,3 +191,13 @@ app.innerHTML = `
     </button>
   </main>
 `;
+
+// Toggle Lioz panel when the button is clicked
+const liozBtn = document.getElementById('lioz-btn');
+const liozPanel = document.getElementById('lioz-panel');
+if (liozBtn && liozPanel) {
+  liozBtn.addEventListener('click', () => {
+    liozPanel.classList.toggle('hidden');
+    liozBtn.setAttribute('aria-expanded', String(!liozPanel.classList.contains('hidden')));
+  });
+}

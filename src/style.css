@@ -159,6 +159,38 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+.lioz-panel.hidden {
+  display: none;
+}
+
+.lioz-panel {
+  padding: 1.5rem 2rem;
+  background: #ffffff;
+  border-top: 1px solid #e6e6e6;
+}
+
+.lioz-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.frame-card {
+  background: #fff;
+  border: 1px solid #eef2f6;
+  border-radius: 14px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(15,23,42,0.06);
+}
+
+.frame-inner {
+  font-weight: 700;
+  color: #1f2937;
+}
+
 .supplier-products {
   padding: 2rem;
   background: #ffffff;
