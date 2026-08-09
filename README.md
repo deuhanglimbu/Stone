@@ -1,0 +1,10 @@
+# Stone Loads Starter
+
+Minimal Vite project scaffolded for the Stone Loads homepage.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
