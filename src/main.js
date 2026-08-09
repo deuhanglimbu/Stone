@@ -31,7 +31,7 @@ app.innerHTML = `
     <section class="filters" id="marketplace">
       <input type="search" placeholder="Search for flagging, steps, etc..." />
       <div class="filter-buttons">
-        <button id="lioz-btn">Lioz Claaro</button>
+        <button id="lioz-btn">Lioz Claro</button>
         <button>Color</button>
         <button>Stone Type</button>
         <button>Category</button>
