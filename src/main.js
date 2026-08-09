@@ -189,6 +189,44 @@ app.innerHTML = `
     <button class="floating-chat" aria-label="Chat with us">
       <span>💬</span>
     </button>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-section">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Insights</h3>
+          <ul>
+            <li><a href="#">Merchandise</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Industries</h3>
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section footer-contact">
+          <h3>Head Office</h3>
+          <p>2A International Square,<br/>Tullamarine VIC 3043, Australia.</p>
+          <p><a href="#">Direction on Google</a></p>
+          <p><strong>Email</strong><br/><a href="mailto:contact@unitedcarriers.com">contact@unitedcarriers.com</a></p>
+          <p><strong>Hotline</strong><br/>1300 000 082</p>
+          <p><strong>Office Hours</strong><br/>Monday - Friday / 8:30AM - 5PM</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>All prices in AUD, inclusive of GST. Powered by Stripe.</span>
+      </div>
+    </footer>
   </main>
 `;
 
